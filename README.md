@@ -10,5 +10,5 @@
 6. <code>cd</code> into the new Mask_RCNN folder (rename to <code>Mask_RCNN</code> if necessary) 
 7. Run <code>pip install -r requirements.txt</code> to load the requirements to pip for this repo
 8. Run <code>pip install .</code> to install the MaskRCNN library into pip
-9. Install iPyKernel by running <code>python -m ipykernel install .</code>
+9. Install iPyKernel by running <code>python -m ipykernel install</code>
 10. Train away!
