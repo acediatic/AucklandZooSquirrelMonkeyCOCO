@@ -17,4 +17,13 @@ If training, you may like to use the [train_monkeys.ipynb](train_monkeys.ipynb).
 To do so, in your environment created above, install iPyKernel by running <code>python -m ipykernel install</code>
 
 ## Running
+To run the code, simply run the file [ConspecificIdentification.py](ConspecificIdentification.py) in the virtual environment configured above. This function takes four arguments: 
+| Command Line Flag  | Argument                                             |
+|--------------------|------------------------------------------------------|
+| --image            |        The image to perform identification on        |
+| --mrcnn_model_path | Path to the Matterport Mask R-CNN \*.h5 model weights |
+| --vgg_model_path   |              Path to the Keras VGG model             |
+| --knn_model_path   |     Path to the SciKit-Learn KNN model (.pickle)     |
+
+
 Trained models will be added in a future update
