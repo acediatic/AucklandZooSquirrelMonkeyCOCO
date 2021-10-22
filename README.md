@@ -10,6 +10,11 @@
 5. Download the submodule by running <code>git submodule update</code>
 6. <code>cd</code> into the new Mask_RCNN folder (rename to <code>Mask_RCNN</code> if necessary) 
 7. In your environment created above, run <code>pip install -r requirements.txt</code> to load the requirements to pip for this repo
-8. To replace Tensorflow, run <code>pip uninstall tensorflow</code> and then <code>pip install tensorflow==2.4</code>
-8. In your environment created above, install iPyKernel by running <code>python -m ipykernel install</code>
-9. Train away!
+8. To replace Tensorflow, run <code>pip uninstall tensorflow</code> and then <code>pip install tensorflow==2.4</code> 
+ 
+## Training
+If training, you may like to use the [train_monkeys.ipynb](train_monkeys.ipynb). 
+To do so, in your environment created above, install iPyKernel by running <code>python -m ipykernel install</code>
+
+## Running
+Trained models will be added in a future update
